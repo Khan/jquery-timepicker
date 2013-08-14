@@ -148,7 +148,7 @@ requires jQuery 1.7+
 			}
 
 			if (selected && selected.length) {
-				var topOffset = list.scrollTop() + selected.position().top - selected.outerHeight();
+				var topOffset = selected.position().top - selected.outerHeight();
 				list.scrollTop(topOffset);
 			} else {
 				list.scrollTop(0);

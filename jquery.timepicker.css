@@ -20,6 +20,8 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	position: relative;
+	z-index: -1;
 }
 
 .ui-timepicker-duration {
